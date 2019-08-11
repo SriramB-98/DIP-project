@@ -1,0 +1,16 @@
+README - Flow Based Image Abstraction
+
+1. load a color image file (RGB)
+
+	> im == imread('image_sample.png');
+
+	
+2. run master function on im
+	also store the output in a file specified by filename
+	
+	> output = master(im, filename);
+	
+	
+3. show output
+	
+	> imshow(output);
